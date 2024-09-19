@@ -1,0 +1,185 @@
+html, body{
+  background-color:  #F2DAC4;
+}
+.navbar .material-symbols-outlined {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+}
+.container button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+.d-flex button {
+  margin: 0 15px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #8C493A;
+  color: rgb(255, 255, 255);
+}
+/* page */
+.one-img{
+  position: relative;
+  width: 100vw;
+}
+.one-text{
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+  width: 100vw;
+  color:#ffc3a0; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.one-text h1{
+  font-size: 45px;
+  min-width: 650px;
+}
+.one-img img{
+  width: 100vw;
+  min-width: 500px;
+}
+.one-img a{
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #F2DAC4;
+  transition: background-color 1.0s ease;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(28, 11, 11, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.one-img a:hover{
+  color: #adadad;
+  background-color:#3A3B40;
+} 
+
+/* two page */
+.scroll-text {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width:  100%;;
+
+}
+.scroll-text p {
+  display: inline-block;
+  right : 0;
+  font-size: 20vw;
+  color: rgba(40, 40, 40, 0.1);
+  animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+  0% { transform: translateX(100vw); }
+  100% { transform: translateX(-100%); }
+}
+
+/* three page */
+.photo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.photo img {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  max-width: 500px;
+  max-height: 300px;
+  margin: -13%;
+}
+
+/* fuor page */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #8C493A;
+  padding: 140px 0 0px 0;
+}
+.card1 {
+  padding: 10px;
+  color: white;
+}
+.card1 .card-h1 h2{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  font-weight: bold;
+  
+}
+.card-h2 p{
+  max-width: 25vw;
+  overflow-wrap: break-word;
+}
+/* five page */
+.five {
+  margin-bottom: 50px;
+}
+.five h2, h6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* six page */
+.six {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.six-box {
+  min-width: 300px;
+}
+.six-1 p{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #adadad;
+}
+
+/* seven page */
+.seven-img {
+position: relative;
+width: 100vw;
+}
+.seven-text{
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+  width: 100vw;
+  color:#ff986c; 
+  text-shadow: 2px 10px 4px rgba(0, 0, 0, 0.7);
+}
+.seven-text h1{
+  font-size: 45px;
+  min-width: 650px;
+}
+.seven-img img{
+  width: 100vw;
+  max-height: 500px;
+}
+.seven-img a{
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  transition: background-color 1.0s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(28, 11, 11, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.seven-img a:hover{
+  color: #adadad;
+  background-color:#3A3B40;
+} 
