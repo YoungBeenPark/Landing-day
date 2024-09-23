@@ -4,7 +4,7 @@ body, html {
 }
 .BackGroundColor{
   height: 650px;
-  background-color: orange;
+  background-color: rgba(255, 42, 0, 0.79);
 }
 .logo-container {
   display: flex;
@@ -152,7 +152,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 80px 20px ;
 }
 .sub-content, .two-content {
   margin-right: 50px;
@@ -178,20 +178,23 @@ img {
   border-radius: 20px;
   color: white;
   background-color: red;
+  cursor: pointer;
 }
+
 .sub-container img {
   width: 100%;
   max-width: 500px;
   margin: 0;
 }
-
 .two-container img{
   width: 100%;
   max-width: 500px;
   margin-right: 30px;
 }
+
 .two-cover {
-  
-  padding: 80px;
-  background-color: rgba(255, 0, 0, 0.182);
+  position: absolute;
+  bottom: -1650px;
+  z-index: -1;
+  background-color: rgba(255, 0, 0, 0.214);
 }
