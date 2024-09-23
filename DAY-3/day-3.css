@@ -1,0 +1,197 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+.BackGroundColor{
+  height: 650px;
+  background-color: orange;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 32px;
+  color: white;
+}
+.logo svg{
+  
+  margin-right: 7px;
+}
+/* 플렉스 등등 이용해 봤는데 안되서 강제이동 */
+.logo .logo-text {
+  padding-top: 5px;
+  position: relative;
+}
+.login {
+  position : absolute;
+  right: 10px;
+}
+.login-id{
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  background-color: red;
+}
+.login-id-1{
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: rgba(128, 128, 128, 0.602);
+  background-color: white;
+}
+
+/* 주소 검색창 */
+.text-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+}
+.address-search {
+  display: flex;
+  justify-content: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  
+}
+.address-input {
+  position: relative;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.search-button {
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: white;
+}
+/* Sign in */
+.sign {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.sign button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* card */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 704px;
+  margin : 100px 0; 
+  
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 40px 0;
+}
+img { 
+  margin-right: 40px;
+}
+
+.card-content {
+ width: 200px;
+}
+.card h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+.card-description{
+  margin: 0;
+}
+.card-button {
+  display: flex;
+  align-items: center;
+  border: 0;
+  margin-top: 6px;
+  color: red;
+  background-color: white;
+}
+
+/* sub-container */
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.two-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.sub-content, .two-content {
+  margin-right: 50px;
+}
+.sub-content h3, .two-content h3{
+  font-size: 32px;
+  margin: 20px 0 0 0;
+}
+.sub-content h4, .two-content h4 {
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  
+}
+.sub-content p, .two-content p {
+  margin: 15px 0 0 0;
+}
+.sub-button, .two-button {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 0;
+  padding: 7px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: red;
+}
+.sub-container img {
+  width: 100%;
+  max-width: 500px;
+  margin: 0;
+}
+
+.two-container img{
+  width: 100%;
+  max-width: 500px;
+  margin-right: 30px;
+}
+.two-cover {
+  
+  padding: 80px;
+  background-color: rgba(255, 0, 0, 0.182);
+}
