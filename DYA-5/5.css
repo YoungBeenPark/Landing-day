@@ -8,11 +8,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
+/* BOX  */
 .top-container {
   position: relative;
 }
-
-/* BOX  */
 .box-1 {
   background-color: #D9D9D9;
   padding: 10px;
@@ -54,14 +53,18 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 30px;
 }
 
-/* background text */
 
+/* background text */
+.background-title {
+  margin: 30px 0 0 20px;
+}
 .background-title h3{
+  color: #262626;
   margin: 20px 0 10px 20px;
 }
 .background-title p{
-  width: 200px;
-  margin: 20px 0 10px 20px;
+  width: 330px;
+  margin: 5px 0 10px 20px;
   color: rgb(100, 100, 100);
 }
 
@@ -85,20 +88,25 @@ h1,h2,h3,h4,h5,h6 {
   justify-content: center;
   align-items: center;
   position: absolute;
-  transform: translate(100%, -50%);
+  transform: translate(140%, -50%);
   width: 250px;
   height: 450px;
   border: 6px solid black;
   border-radius: 30px;
-  background-image: url('배경.jpg');
+  background-image: url('아이폰 블랙1.jpg');
   background-size: cover ;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  /* backdrop-filter: blur(4px); 효과 안됨 ㅠㅠ */
+  /* backdrop-filter: blur(4px); 효과 안됨 ㅠㅠ */ 
 }
-.phone img {
-  width: 50px;
+
+.sence{
+  padding: 7px;
+  position: relative;
+  top: -42px;
+  border-radius: 99px;
+  background-color: black;
 }
 .phone-number{
   font-size: 1.8em;
@@ -115,6 +123,9 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 25px;
   position: relative;
   overflow: hidden;
+  box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
 }
 .phone-button {
   z-index: 1;
@@ -134,7 +145,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .phone-button:hover {
   background-color: rgba(71, 71, 71, 0.39);
-  transition: 1s background 0.3s;
+  transition: 0 background 0.3s;
 }
 .phone-text-1 {
   position: relative;
@@ -143,14 +154,15 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: bold;
 }
 
-/* scroll */
 
+/* scroll */
 .scroll-text {
   overflow: hidden;
   white-space: nowrap;
   width:  100%;;
 }
 .scroll-text p {
+  margin: 30px;
   display: inline-block;
   width: max-content;
   z-index: -1;
@@ -158,8 +170,15 @@ h1,h2,h3,h4,h5,h6 {
   color: #A6A6A6;
   animation: scroll 4s linear infinite;
 }
-
 @keyframes scroll {
   0% { transform: translateX(100vw); }
   100% { transform: translateX(-100%); }
+}
+
+
+/* card */
+.card-container {
+  width: auto;
+  height: 500px;
+  background-color: red;
 }
