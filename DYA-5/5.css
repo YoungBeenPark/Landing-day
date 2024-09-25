@@ -1,28 +1,33 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
-
 
 /* BOX  */
 .top-container {
   position: relative;
 }
 .box-1 {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   padding: 10px;
   margin: 10px 7px 2px 2px;
 }
-.box-2{
-  background-color: #D9B282;
+.box-2 {
+  background-color: #d9b282;
   padding: 10px;
   margin: 3px 7px 2px 2px;
 }
-.box-logo{
+.box-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,37 +42,35 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 30px;
   left: -8px;
 }
-.top-name-1-1 h1{
-  color: #A6A6A6;
+.top-name-1-1 h1 {
+  color: #a6a6a6;
 }
 .top-name-2 {
   display: flex;
   left: 160px;
   margin: 30px 0 0 158px;
-  color : white;
+  color: white;
   font-size: 30px;
 }
 .top-name-2-1 {
-  color: #D9B282;
+  color: #d9b282;
   margin-left: 8px;
   font-size: 30px;
 }
-
 
 /* background text */
 .background-title {
   margin: 30px 0 0 20px;
 }
-.background-title h3{
+.background-title h3 {
   color: #262626;
   margin: 20px 0 10px 20px;
 }
-.background-title p{
+.background-title p {
   width: 330px;
   margin: 5px 0 10px 20px;
   color: rgb(100, 100, 100);
 }
-
 
 /* background color */
 .back-color {
@@ -76,9 +79,8 @@ h1,h2,h3,h4,h5,h6 {
   top: 0;
   width: 500px;
   height: 550px;
-  background-color: #A6A6A6;
+  background-color: #a6a6a6;
 }
-
 
 /* phone */
 .phone {
@@ -93,22 +95,22 @@ h1,h2,h3,h4,h5,h6 {
   height: 450px;
   border: 6px solid black;
   border-radius: 30px;
-  background-image: url('아이폰 블랙1.jpg');
-  background-size: cover ;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  /* backdrop-filter: blur(4px); 효과 안됨 ㅠㅠ */ 
+  background-image: url("아이폰 블랙1.jpg");
+  background-size: cover;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  /* backdrop-filter: blur(4px); 효과 안됨 ㅠㅠ */
 }
 
-.sence{
+.sence {
   padding: 7px;
   position: relative;
   top: -42px;
   border-radius: 99px;
   background-color: black;
 }
-.phone-number{
+.phone-number {
   font-size: 1.8em;
   font-weight: bold;
   margin: 0 0 250px 0;
@@ -123,9 +125,9 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 25px;
   position: relative;
   overflow: hidden;
-  box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
 }
 .phone-button {
   z-index: 1;
@@ -139,9 +141,9 @@ h1,h2,h3,h4,h5,h6 {
   cursor: pointer;
   position: relative;
   border: none;
-  box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
 }
 .phone-button:hover {
   background-color: rgba(71, 71, 71, 0.39);
@@ -154,12 +156,11 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: bold;
 }
 
-
 /* scroll */
 .scroll-text {
   overflow: hidden;
   white-space: nowrap;
-  width:  100%;;
+  width: 100%;
 }
 .scroll-text p {
   margin: 30px;
@@ -167,18 +168,24 @@ h1,h2,h3,h4,h5,h6 {
   width: max-content;
   z-index: -1;
   font-size: 150px;
-  color: #A6A6A6;
+  color: #a6a6a6;
   animation: scroll 4s linear infinite;
 }
 @keyframes scroll {
-  0% { transform: translateX(100vw); }
-  100% { transform: translateX(-100%); }
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
-
-/* card */
+/* card @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@추후 업데이트*/
 .card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1000px;
   width: auto;
   height: 500px;
-  background-color: red;
+  background-color: #d9b282;
 }
