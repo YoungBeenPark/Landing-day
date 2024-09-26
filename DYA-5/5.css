@@ -1,0 +1,191 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* BOX  */
+.top-container {
+  position: relative;
+}
+.box-1 {
+  background-color: #d9d9d9;
+  padding: 10px;
+  margin: 10px 7px 2px 2px;
+}
+.box-2 {
+  background-color: #d9b282;
+  padding: 10px;
+  margin: 3px 7px 2px 2px;
+}
+.box-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* top text name */
+.top-name-1 {
+  display: flex;
+  position: relative;
+  color: white;
+  margin: 50px 0 0 90px;
+  font-size: 30px;
+  left: -8px;
+}
+.top-name-1-1 h1 {
+  color: #a6a6a6;
+}
+.top-name-2 {
+  display: flex;
+  left: 160px;
+  margin: 30px 0 0 158px;
+  color: white;
+  font-size: 30px;
+}
+.top-name-2-1 {
+  color: #d9b282;
+  margin-left: 8px;
+  font-size: 30px;
+}
+
+/* background text */
+.background-title {
+  margin: 30px 0 0 20px;
+}
+.background-title h3 {
+  color: #262626;
+  margin: 20px 0 10px 20px;
+}
+.background-title p {
+  width: 330px;
+  margin: 5px 0 10px 20px;
+  color: rgb(100, 100, 100);
+}
+
+/* background color */
+.back-color {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 500px;
+  height: 550px;
+  background-color: #a6a6a6;
+}
+
+/* phone */
+.phone {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(140%, -50%);
+  width: 250px;
+  height: 450px;
+  border: 6px solid black;
+  border-radius: 30px;
+  background-image: url("아이폰 블랙1.jpg");
+  background-size: cover;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  /* backdrop-filter: blur(4px); 효과 안됨 ㅠㅠ */
+}
+
+.sence {
+  padding: 7px;
+  position: relative;
+  top: -42px;
+  border-radius: 99px;
+  background-color: black;
+}
+.phone-number {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0 0 250px 0;
+  color: white;
+}
+.phone-text {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+}
+.phone-button {
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px -1px rgba(0, 0, 0, 0.75);
+}
+.phone-button:hover {
+  background-color: rgba(71, 71, 71, 0.39);
+  transition: 0 background 0.3s;
+}
+.phone-text-1 {
+  position: relative;
+  top: 2px;
+  left: 10px;
+  font-weight: bold;
+}
+
+/* scroll */
+.scroll-text {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+.scroll-text p {
+  margin: 30px;
+  display: inline-block;
+  width: max-content;
+  z-index: -1;
+  font-size: 150px;
+  color: #a6a6a6;
+  animation: scroll 4s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* card @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@추후 업데이트*/
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1000px;
+  width: auto;
+  height: 500px;
+  background-color: #d9b282;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="5.css" />
+
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+
+
+    <!-- top text and box -->
+    <div class="top-container">
+      <div class="top-text">
+        <div class="top-name-1">
+          <div class="box-logo">
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+          </div>
+          <h1>YOUNG BEEN</h1>
+          <div class="top-name-1-1">
+            <h1>'s</h1>
+          </div>
+        </div>
+      </div>
+      <div class="top-name-2">
+        <h1>Assignment</h1>
+        <div class="top-name-2-1">
+          <h1>Practice</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- background text -->
+    <div class="background-box">
+      <div class="background-title">
+        <h3>Education</h3>
+        <p>Graduated from Kyung Hee cyber University</p>
+      </div>
+      <div class="background-title">
+        <h3>overseas experience</h3>
+        <p>Japan, Vietnam, Brazil, Paraguay</p>
+      </div>
+      <div class="background-title">
+        <h3>technology</h3>
+        <p>HTML CSS Javasc React Node.js</p>
+      </div>
+    </div>
+
+
+    <!-- background-Color -->
+    <div class="back-color"></div>
+
+
+    <!-- phone -->
+    <div class="phone">
+      <div class="sence"></div>
+      <div class="phone-number">010-2327-0000</div>
+      <div class="phone-text">
+        <button class="phone-button" id="box"></button>
+        <div class="phone-text-1">밀어서 연락하기</div>
+      </div>
+    </div>
+
+
+    <!-- scroll text -->
+    <div class="page-scroll">
+      <div class="scroll-text">
+        <p>Creating a portfolio assignment</p>
+      </div>
+    </div>
+
+
+   <!-- animation -->
+   <script>
+    let position = 0;
+    let animationId;
+
+    function animate() {
+        position += 3;
+        document.getElementById('box').style.left = position + 'px';
+        if (position < 150) { 
+            animationId = requestAnimationFrame(animate);
+        }
+    }
+    const box = document.getElementById('box');
+
+    box.addEventListener('click', () => {
+        if (!animationId) {
+            animate();
+        }
+    });
+</script>
+
+
+<!-- card container 추후 업데이트 예정ㅎ -->
+<div class="card-container">
+  
+  <div class="card-body">
+    <img src="추후 업데이트.jpg" alt="임시@@">
+    <h3>맨날 늦은시간까지 하느라..이번엔 쉬고 추후에 마무리 하겠습니다!!!!!!</h3>
+    <p></p>
+  </div>
+</div>
+  </body>
+</html>
