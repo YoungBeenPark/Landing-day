@@ -151,8 +151,7 @@ h6 {
 }
 .phone-text-1 {
   position: relative;
-  top: 2px;
-  top: -2px;
+  top: 1.5px;
   left: 10px;
   font-weight: bold;
 }
@@ -183,10 +182,54 @@ h6 {
 
 /* card @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@추후 업데이트*/
 .card-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 1000px;
-  width: auto;
+  position: absolute;
+  width: 100vw;
+  height: auto;
+}
+.card-container img {
+  width: 100vw;
   height: 500px;
-  background-color: #d9b282;
+}
+.card, .card-1, .card-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8); /* 배경색 반투명 */
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 16px;
+  width: 25%;
+  height: 300px;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+  position: absolute; /* 카드 위치 절대 지정 */
+}
+.card-img h2 {
+  margin: 5px 0 0 0 ;
+}
+.card-img p {
+  margin: 5px 0;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.card {
+  top: 10%; /* 카드 위치 조정 */
+  left: 2%;
+}
+.card-1 {
+  top: 10%; /* 두 번째 카드 위치 조정 */
+  left: 35%;
+}
+.card-2 {
+  top: 10%; /* 세 번째 카드 위치 조정 */
+  left: 68%;
+}
+.card-container button{
+  padding: 10px;
+  border-radius: 99px;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.222);
 }
